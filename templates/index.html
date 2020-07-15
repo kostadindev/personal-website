@@ -9,10 +9,9 @@
     <title>Landed by HTML5 UP</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="static/assets/css/main.css"/>
-    <link rel="stylesheet" href="static/assets/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="../static/assets/css/main.css"/>
     <noscript>
-        <link rel="stylesheet" href="static/assets/css/noscript.css"/>
+        <link rel="stylesheet" href="../static/assets/css/noscript.css"/>
     </noscript>
 </head>
 <body class="is-preload landing">
@@ -20,29 +19,29 @@
 
     <!-- Header -->
     <header id="header">
-        <h1 id="logo"><a href="index.html">Landed</a></h1>
+        <h1 id="logo"><a href="index.html">Home</a></h1>
         <nav id="nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">CV</a></li>
-                <li>
-                    <a href="#">Layouts</a>
-                    <ul>
-                        <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                        <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                        <li><a href="no-sidebar.html">No Sidebar</a></li>
-                        <li>
-                            <a href="#">Submenu</a>
-                            <ul>
-                                <li><a href="#">Option 1</a></li>
-                                <li><a href="#">Option 2</a></li>
-                                <li><a href="#">Option 3</a></li>
-                                <li><a href="#">Option 4</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="elements.html">Elements</a></li>
+                {#                <li><a href="index.html">Home</a></li>#}
+                <li><a href="static/documents/resume-s2020.pdf" target="_blank">CV</a></li>
+                {#                <li>#}
+                {#                    <a href="#">Layouts</a>#}
+                {#                    <ul>#}
+                {#                        <li><a href="left-sidebar.html">Left Sidebar</a></li>#}
+                {#                        <li><a href="right-sidebar.html">Right Sidebar</a></li>#}
+                {#                        <li><a href="no-sidebar.html">No Sidebar</a></li>#}
+                {#                        <li>#}
+                {#                            <a href="#">Submenu</a>#}
+                {#                            <ul>#}
+                {#                                <li><a href="#">Option 1</a></li>#}
+                {#                                <li><a href="#">Option 2</a></li>#}
+                {#                                <li><a href="#">Option 3</a></li>#}
+                {#                                <li><a href="#">Option 4</a></li>#}
+                {#                            </ul>#}
+                {#                        </li>#}
+                {#                    </ul>#}
+                {#                </li>#}
+                {#                <li><a href="elements.html">Elements</a></li>#}
                 <li><a href="#" class="button primary">Projects</a></li>
             </ul>
         </nav>
@@ -54,18 +53,24 @@
             <header>
                 <h2>Kostadin Devedzhiev</h2>
                 <h3>AI Research Assistant</h3>
-                <ul class="icons">
-                    {#                    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>#}
-                    {#                    <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>#}
-                    <li><a href="https://github.com/kostadindev" target="_blank" class="icon brands alt fa-github"><span
-                            class="label">GitHub</span></a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/kostadin-devedzhiev-472a26170/" target="_blank"
-                           class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="https://www.instagram.com/kostadin.devedzhiev/?hl=en" target="_blank"
-                           class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-                </ul>
+                <div class='socials'>
+                    <div class='inner-socials'>
+                        <a href="#" class="icon brands alt fa-twitter"><span
+                                class="">kostadin.devedzhiev@stonybrook.edu</span></a><br><br>
+                    </div>
+
+                    <ul class="icons">
+                        <li><a href="https://github.com/KostadinDev" target ='_blank'  class=""><span class=""><img src='static/images/github.png' width='40px'></span></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/kostadin-dev" target ='_blank' class=""><span class=""><img src='static/images/linkedin-logo.png'></span></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/kostadin.devedzhiev/?hl=en" target ='_blank'  class=""><span class=""><img src='static/images/instagram-logo.png'
+                                                                     width='40px'></span></a></li>
+
+                    </ul>
+
+                </div>
+
             </header>
             <span class="image"><img src="static/images/profile-pic.jpg" alt=""/></span>
         </div>
@@ -107,15 +112,24 @@
 
     <!-- Two -->
     <section id="two" class="spotlight style2 right">
-        <span class="image fit main"><img src="static/images/interactive-annotator.png" alt=""/></span>
+        <span class="image fit main"><img src="static/images/ellipses-white.png" alt=""/></span>
         <div class="content">
             <header>
-                <h2>Interdum amet non magna accumsan</h2>
-                <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+                <h2>Motional EMF (&epsilon;) due to Compression in Ellipses</h2>
+                <p></p>
+                <div class="box-container">
+                    <a class="button primary small fit">Computational Physics</a>
+                    <a class="button primary small fit">Numerical Analysis</a>
+                </div>
+                <br>
+
+
             </header>
-            <p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing.
-                Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat
-                adipiscing lorem.</p>
+            <p>This project studies the motional emf (&epsilon;) generated by the compression of an elliptical
+                conducting loop traversed by a
+                constant magnetic field. A numerical algorithm with full 128-bit precision is developed and real-world
+                applications are discussed.</p>
+            <p>Glad to have worked on this project together with Dr. Phillipe Binder and Alexa Runyan.</p>
             <ul class="actions">
                 <li><a href="#" class="button">Learn More</a></li>
             </ul>
@@ -125,15 +139,24 @@
 
     <!-- Three -->
     <section id="three" class="spotlight style3 left">
-        <span class="image fit main bottom"><img src="static/images/ellipses.png" alt=""/></span>
+        <span class="image fit main bottom"><img src="static/images/interactive-annotator.png" alt=""/></span>
         <div class="content">
             <header>
-                <h2>Interdum felis blandit praesent sed augue</h2>
-                <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+                <h2>Co-Learning: Interactive Annotation Tool with DL</h2>
+                <div class="box-container">
+
+                    <a class="button primary small fit">Computer Vision</a>
+                    <a class="button primary small fit">Deep Learning</a>
+                    <a class="button primary small fit">HCI</a>
+
+                </div>
             </header>
-            <p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing.
-                Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat
-                adipiscing lorem.</p>
+            <br>
+            <p>Co-Learning is human-in-the-loop AI system for interactive annotation built on top of LabelMe. The
+                AI and human learn from each other to make annotation quick
+                and painless. We test it on aerial images of Hawaii's vegetation taken by drones.</p>
+            <p>Thanks to Dr. Travis Mandel and Edward Cashmane for working with me on this project and to Maxwell Panoff
+                for his contribution.</p>
             <ul class="actions">
                 <li><a href="#" class="button">Learn More</a></li>
             </ul>
@@ -152,39 +175,40 @@
                 <div class="row gtr-uniform">
                     <section class="col-4 col-6-medium col-12-xsmall">
                         <span class="icon solid alt major fa-chart-area"></span>
-                        <h3>Ipsum sed commodo</h3>
-                        <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                        <h3>Data Viz Lab Website</h3>
+                        <p>Developing the web page for the Data Visualization Lab at the University of Hawaii Hilo.</p>
                     </section>
                     <section class="col-4 col-6-medium col-12-xsmall">
                         <span class="icon solid alt major fa-comment"></span>
-                        <h3>Eleifend lorem ornare</h3>
-                        <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                        <h3>API & UI for Holographic Fan</h3>
+                        <p>Developed an API and basic user interface for a DseeLab holographic fan.</p>
                     </section>
                     <section class="col-4 col-6-medium col-12-xsmall">
                         <span class="icon solid alt major fa-flask"></span>
-                        <h3>Cubilia cep lobortis</h3>
-                        <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                        <h3>Mauka vs Makai</h3>
+                        <p>DL app that recognizes if an image is taken at Makai (ocean side) or Mauka (mountain
+                            side).</p>
                     </section>
                     <section class="col-4 col-6-medium col-12-xsmall">
                         <span class="icon solid alt major fa-paper-plane"></span>
-                        <h3>Non semper interdum</h3>
-                        <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                        <h3>Microprocessor Implementation</h3>
+                        <p>Digitally implemented a microprocessor with 16 commands.</p>
                     </section>
                     <section class="col-4 col-6-medium col-12-xsmall">
                         <span class="icon solid alt major fa-file"></span>
-                        <h3>Odio laoreet accumsan</h3>
-                        <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                        <h3>Adam Bashforth Method</h3>
+                        <p>Implemented the Adam Bashforth method for initial value problems.</p>
                     </section>
                     <section class="col-4 col-6-medium col-12-xsmall">
                         <span class="icon solid alt major fa-lock"></span>
-                        <h3>Massa arcu accumsan</h3>
-                        <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                        <h3>Mickey Mantle Game</h3>
+                        <p>Developed a card game that can be played with friends or with the computer.</p>
                     </section>
                 </div>
             </div>
             <footer class="major">
                 <ul class="actions special">
-                    <li><a href="#" class="button">Magna sed feugiat</a></li>
+                    <li><a href="#" class="button">Learn More</a></li>
                 </ul>
             </footer>
         </div>
@@ -210,31 +234,31 @@
 
     <!-- Footer -->
     <footer id="footer">
-        <ul class="icons">
-            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-            <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
+        {#        <ul class="icons">#}
+        {#            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>#}
+        {#            <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>#}
+        {#            <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>#}
+        {#            <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>#}
+        {#            <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>#}
+        {#            <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>#}
+        {#        </ul>#}
         <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>Stony Brook University</li>
+            <li>University of Hawaii at Hilo</li>
         </ul>
     </footer>
 
 </div>
 
 <!-- Scripts -->
-<script src="static/assets/js/jquery.min.js"></script>
-<script src="static/assets/js/jquery.scrolly.min.js"></script>
-<script src="static/assets/js/jquery.dropotron.min.js"></script>
-<script src="static/assets/js/jquery.scrollex.min.js"></script>
-<script src="static/assets/js/browser.min.js"></script>
-<script src="static/assets/js/breakpoints.min.js"></script>
-<script src="static/assets/js/util.js"></script>
-<script src="static/assets/js/main.js"></script>
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrolly.min.js"></script>
+<script src="../static/assets/js/jquery.dropotron.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/browser.min.js"></script>
+<script src="../static/assets/js/breakpoints.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
 
 </body>
 </html>
