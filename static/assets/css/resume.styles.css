@@ -1,0 +1,23 @@
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socials {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 200px;
+    margin-bottom:10px
+}
+
+.email {
+    padding-top: 5px;
+}
+.resume-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}

@@ -4,7 +4,7 @@
     margin: 11px;
     transition: all 0.3s linear;
     object-fit: cover;
-
+    border-radius:40px;
 
 }
 
@@ -60,3 +60,4 @@
 .empty{
     background-color:white !important;
 }
+
