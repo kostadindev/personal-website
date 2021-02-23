@@ -1,9 +1,8 @@
+
 from flask import Flask, render_template, request, redirect
 import csv
 import smtplib
 from email.message import EmailMessage
-from string import Template
-from pathlib import Path
 
 app = Flask(__name__)
 
@@ -24,19 +23,20 @@ def write_to_csv(data):
         email = data['email']
         message = data['message']
 
-        gmail = EmailMessage()
+        # commented because python anywhere does not support smtp requests
+        # gmail = EmailMessage()
 
-        gmail['from'] = 'Kostadin Devedzhiev'
-        gmail['to'] = 'kostadin@hawaii.edu'
-        gmail['subject'] = f'Website Message from {name}, {email}'
+        # gmail['from'] = 'Kostadin Devedzhiev'
+        # gmail['to'] = 'kostadin@hawaii.edu'
+        # gmail['subject'] = f'Website Message from {name}, {email}'
 
-        gmail.set_content(message)
+        # gmail.set_content(message)
 
-        with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
-            smtp.login('kocetobrat@gmail.com', 'DMjk2tKE')
-            smtp.send_message(gmail)
+        # with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
+        #     smtp.ehlo()
+        #     smtp.starttls()
+        #     smtp.login('kocetobrat@gmail.com', 'DMjk2tKE')
+        #     smtp.send_message(gmail)
 
         csv_writer = csv.writer(database, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow([name, email, message])
